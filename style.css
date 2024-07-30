@@ -2,14 +2,13 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 950px;
+    min-height: 100vh;
 }
 
 .navigation {
@@ -25,8 +24,8 @@ html, body {
     background-image: url("assets/Parrot.jpg");
     background-size: cover;
     background-position: center;
-    width: 100%; /* Full width of the container */
-    height: calc(100% - 100px);
+    width: 100%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,4 +46,76 @@ html, body {
     margin: 10px 0 0;
     font-size: 1.2em;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.beige-bg {
+    background-color: #f3e9e4;
+}
+
+.centered {
+    margin: 0;
+    font-size: 2em;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.product-category {
+    border: 2px solid #f3e9e4;
+    padding: 20px;
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.product-category h2 {
+    margin-top: 10px;
+}
+
+.product-category ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.product-category ul li {
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.animal-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
