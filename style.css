@@ -119,3 +119,35 @@ html, body {
     object-fit: cover;
     margin-bottom: 10px;
 }
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info-image {
+    width: 450px;
+    height: 600px;
+    margin-right: 20px;
+}
+
+.info-text {
+    max-width: 600px;
+    padding-left: 125px;
+}
+
+.info-text h2 {
+    margin-top: 0;
+}
+
+.info-text ul {
+    list-style: disc;
+    padding-left: 20px;
+}
