@@ -190,3 +190,16 @@ html, body {
 .content-4 .product {
     border: 2px solid grey;
 }
+
+.top-recommendations {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.top-recommendations h3 {
+    margin: 0 10px;
+    display: inline-block;
+}
