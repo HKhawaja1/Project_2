@@ -17,47 +17,71 @@
       <div class="content white-bg">
         <h1 class="centered">Top Quality Products for Every Pet</h1>
         <p class="description">Premium selections for your cherished companions only at Pet Spa.</p>
-        <div class="product-container">
-          <div class="product-category">
-            <img src="assets/cat.jpg" alt="Cat Image" class="animal-image">
-            <h2>For Cats</h2>
-            <ul>
-              <li>Cat Food</li>
-              <li>Cat Toys</li>
-              <li>Cat Litter</li>
-              <li>Cat Beds</li>
-            </ul>
+        <div class="product-wrapper">
+          <button class="scroll-button" id="scroll-left">&lt;</button>
+          <div class="product-container" id="product-container">
+            <div class="product-category">
+              <img src="assets/cat.jpg" alt="Cat Image" class="animal-image">
+              <h2>For Cats</h2>
+              <ul>
+                <li>Cat Food</li>
+                <li>Cat Toys</li>
+                <li>Cat Litter</li>
+                <li>Cat Beds</li>
+              </ul>
+            </div>
+            <div class="product-category">
+              <img src="assets/dog.jpg" alt="Dog Image" class="animal-image">
+              <h2>For Dogs</h2>
+              <ul>
+                <li>Dog Food</li>
+                <li>Dog Toys</li>
+                <li>Dog Leashes</li>
+                <li>Dog Beds</li>
+              </ul>
+            </div>
+            <div class="product-category">
+              <img src="assets/parrot_2.jpg" alt="Parrot Image" class="animal-image">
+              <h2>For Parrots</h2>
+              <ul>
+                <li>Parrot Food</li>
+                <li>Parrot Toys</li>
+                <li>Bird Cages</li>
+                <li>Perches</li>
+              </ul>
+            </div>
+            <div class="product-category">
+              <img src="assets/rabbit.jpg" alt="Rabbit Image" class="animal-image">
+              <h2>For Rabbits</h2>
+              <ul>
+                <li>Rabbit Food</li>
+                <li>Rabbit Toys</li>
+                <li>Rabbit Cages</li>
+                <li>Bedding</li>
+              </ul>
+            </div>
+            <div class="product-category">
+              <img src="assets/Hamster_2.jpg" alt="Hamster Image" class="animal-image">
+              <h2>For Hamsters</h2>
+              <ul>
+                <li>Hamster Food</li>
+                <li>Hamster Toys</li>
+                <li>Hamster Cages</li>
+                <li>Hamster Bedding</li>
+              </ul>
+            </div>
+            <div class="product-category">
+              <img src="assets/fish.jpg" alt="Fish Image" class="animal-image">
+              <h2>For Fish</h2>
+              <ul>
+                <li>Fish Food</li>
+                <li>Fish Tanks</li>
+                <li>Fish Decorations</li>
+                <li>Fish Filters</li>
+              </ul>
+            </div>
           </div>
-          <div class="product-category">
-            <img src="assets/dog.jpg" alt="Dog Image" class="animal-image">
-            <h2>For Dogs</h2>
-            <ul>
-              <li>Dog Food</li>
-              <li>Dog Toys</li>
-              <li>Dog Leashes</li>
-              <li>Dog Beds</li>
-            </ul>
-          </div>
-          <div class="product-category">
-            <img src="assets/parrot_2.jpg" alt="Parrot Image" class="animal-image">
-            <h2>For Parrots</h2>
-            <ul>
-              <li>Parrot Food</li>
-              <li>Parrot Toys</li>
-              <li>Bird Cages</li>
-              <li>Perches</li>
-            </ul>
-          </div>
-          <div class="product-category">
-            <img src="assets/rabbit.jpg" alt="Rabbit Image" class="animal-image">
-            <h2>For Rabbits</h2>
-            <ul>
-              <li>Rabbit Food</li>
-              <li>Rabbit Toys</li>
-              <li>Rabbit Cages</li>
-              <li>Bedding</li>
-            </ul>
-          </div>
+          <button class="scroll-button" id="scroll-right">&gt;</button>
         </div>
       </div>
       <div class="content beige-bg">
@@ -141,36 +165,161 @@
         <h2>Editor's Picks</h2>
         <p>Handpicked recommendations to provide the best for your pets.</p>
         <div class="top-recommendations">
-          <h3>For Dogs</h3>
-          <h3>For Cats</h3>
-          <h3>For Parrots</h3>
-          <h3>For Rabbits</h3>
-          <h3>For Hamsters</h3>
-          <h3>For Fish</h3>
+          <h3 onclick="showProducts('dogs')">For Dogs</h3>
+          <h3 onclick="showProducts('cats')">For Cats</h3>
+          <h3 onclick="showProducts('parrots')">For Parrots</h3>
+          <h3 onclick="showProducts('rabbits')">For Rabbits</h3>
+          <h3 onclick="showProducts('hamsters')">For Hamsters</h3>
+          <h3 onclick="showProducts('fish')">For Fish</h3>
         </div>
-        <div class="trending-products">
-          <div class="product">
+        <div class="trending-products" id="editors-picks-products">
+          <div class="product" data-category="dogs">
             <img src="assets/Chewable.jpg" alt="Chewable Dog Toy">
             <p>Chewable Dog Toy</p>
             <p>€15.99</p>
             <button>Add to Cart</button>
           </div>
-          <div class="product">
+          <div class="product" data-category="dogs">
             <img src="assets/DogFood.jpg" alt="Healthy Dog Food">
             <p>Healthy Dog Food</p>
             <p>€25.99</p>
             <button>Add to Cart</button>
           </div>
-          <div class="product">
+          <div class="product" data-category="dogs">
             <img src="assets/DogCollar.jpg" alt="Adjustable Dog Collar">
             <p>Adjustable Dog Collar</p>
             <p>€12.99</p>
             <button>Add to Cart</button>
           </div>
-          <div class="product">
+          <div class="product" data-category="dogs">
             <img src="assets/DogBed.jpg" alt="Comfortable Dog Bed">
             <p>Comfortable Dog Bed</p>
             <p>€45.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product" data-category="cats" style="display: none;">
+            <img src="assets/CatBed.jpg" alt="Comfortable Cat Bed">
+            <p>Comfortable Cat Bed</p>
+            <p>€39.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="cats" style="display: none;">
+            <img src="assets/CatFood.jpg" alt="Nutritious Cat Food">
+            <p>Nutritious Cat Food</p>
+            <p>€29.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="cats" style="display: none;">
+            <img src="assets/CatToy_2.jpg" alt="Interactive Cat Toy">
+            <p>Interactive Cat Toy</p>
+            <p>€19.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="cats" style="display: none;">
+            <img src="assets/CatLitter.jpg" alt="Clumping Cat Litter">
+            <p>Clumping Cat Litter</p>
+            <p>€14.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product" data-category="parrots" style="display: none;">
+            <img src="assets/ParrotFood.jpg" alt="Parrot Food">
+            <p>Parrot Food</p>
+            <p>€25.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="parrots" style="display: none;">
+            <img src="assets/ParrotToy.jpg" alt="Colorful Parrot Toy">
+            <p>Colorful Parrot Toy</p>
+            <p>€15.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="parrots" style="display: none;">
+            <img src="assets/ParrotCage.jpg" alt="Spacious Parrot Cage">
+            <p>Spacious Parrot Cage</p>
+            <p>€75.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="parrots" style="display: none;">
+            <img src="assets/ParrotPerch.jpg" alt="Natural Wood Perch">
+            <p>Natural Wood Perch</p>
+            <p>€18.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product" data-category="rabbits" style="display: none;">
+            <img src="assets/RabbitFood.jpg" alt="Rabbit Food">
+            <p>Rabbit Food</p>
+            <p>€19.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="rabbits" style="display: none;">
+            <img src="assets/RabbitToy.jpg" alt="Rabbit Toy">
+            <p>Rabbit Toy</p>
+            <p>€12.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="rabbits" style="display: none;">
+            <img src="assets/RabbitCage_2.jpg" alt="Rabbit Cage">
+            <p>Rabbit Cage</p>
+            <p>€59.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="rabbits" style="display: none;">
+            <img src="assets/RabbitBedding.jpg" alt="Rabbit Bedding">
+            <p>Rabbit Bedding</p>
+            <p>€14.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product" data-category="hamsters" style="display: none;">
+            <img src="assets/HamsterFood.jpg" alt="Hamster Food">
+            <p>Hamster Food</p>
+            <p>€14.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="hamsters" style="display: none;">
+            <img src="assets/HamsterToy.jpg" alt="Hamster Toy">
+            <p>Hamster Toy</p>
+            <p>€9.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="hamsters" style="display: none;">
+            <img src="assets/HamsterCage.jpg" alt="Hamster Cage">
+            <p>Hamster Cage</p>
+            <p>€49.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="hamsters" style="display: none;">
+            <img src="assets/HamsterBedding.jpg" alt="Hamster Bedding">
+            <p>Hamster Bedding</p>
+            <p>€12.99</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="product" data-category="fish" style="display: none;">
+            <img src="assets/FishFood.jpg" alt="Fish Food">
+            <p>Fish Food</p>
+            <p>€9.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="fish" style="display: none;">
+            <img src="assets/FishTank.jpg" alt="Fish Tank">
+            <p>Fish Tank</p>
+            <p>€89.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="fish" style="display: none;">
+            <img src="assets/FishDecorations.jpg" alt="Fish Decorations">
+            <p>Fish Decorations</p>
+            <p>€19.99</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product" data-category="fish" style="display: none;">
+            <img src="assets/FishFilters.jpg" alt="Fish Filters">
+            <p>Fish Filters</p>
+            <p>€24.99</p>
             <button>Add to Cart</button>
           </div>
         </div>
