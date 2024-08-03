@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Title</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
   </head>
   <body>
     <div class="flex-container">
@@ -325,6 +325,28 @@
         </div>
       </div>
       <div class="content beige-bg">Content 6</div>
+    </div>
+    
+    <div id="cart-modal" style="display:none;">
+      <div class="modal-content">
+        <span class="close" onclick="toggleCartModal()">&times;</span>
+        <div id="cart-items"></div>
+        <form id="order-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your name" minlength="2" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your phone number" pattern="\d{10,}" required>
+          <label for="comment">Comment (optional):</label>
+          <textarea id="comment" name="comment" placeholder="Your comment (optional)"></textarea>
+          <button type="button" onclick="placeOrder()">Order</button>
+        </form>
+        <div id="order-message" style="display:none;">
+          <p>Thank you for your order!</p>
+          <p>We'll get in touch with you soon with further details.</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
