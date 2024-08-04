@@ -22,7 +22,6 @@ html, body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding-right: 75px;
 }
 
 .logo {
@@ -362,4 +361,23 @@ html, body {
 
 .testimonial p {
     margin: 5px 0;
+}
+
+footer {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+footer .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
 }

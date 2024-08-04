@@ -9,23 +9,25 @@
   </head>
   <body>
     <div class="flex-container">
-      <div class="navigation">
+      <header class="navigation">
         <a href="index.html">
           <img src="assets/Logo.png" alt="Logo" class="logo">
         </a>
-        <div class="nav-links">
+        <nav class="nav-links">
           <a href="#about-us">About Us</a>
           <a href="#categories">Categories</a>
           <a href="#best-sellers">Best Sellers</a>
           <a href="#new-arrivals">New Arrivals</a>
           <a href="#editors-picks">Other Products</a>
-        </div>
-      </div>
-      <div class="heroImage">
+        </nav>
+      </header>
+      
+      <section class="heroImage">
         <h1>Where Pets Feel at Home</h1>
         <h3>High-Quality Supplies, Food, and Products from Leading Brands</h3>
-      </div>
-      <div class="content white-bg" id="categories">
+      </section>
+
+      <section class="content white-bg" id="categories">
         <h1 class="centered">Top Quality Products for Every Pet</h1>
         <p class="description">Premium selections for your cherished companions only at Pet Spa.</p>
         <div class="product-wrapper">
@@ -94,8 +96,9 @@
           </div>
           <button class="scroll-button" id="scroll-right">&gt;</button>
         </div>
-      </div>
-      <div class="content beige-bg" id="about-us">
+      </section>
+      
+      <section class="content beige-bg" id="about-us">
         <div class="info-container">
           <img src="assets/hamster.jpg" alt="Hamster" class="info-image">
           <div class="info-text">
@@ -111,8 +114,9 @@
             </ul>
           </div>
         </div>
-      </div>
-      <div class="content white-bg" id="best-sellers">
+      </section>
+      
+      <section class="content white-bg" id="best-sellers">
         <h2>Featured Products</h2>
         <p>Discover our customers' favorite picks. Don't miss out!</p>
         <div class="trending-products">
@@ -141,8 +145,9 @@
             <button>Add to Cart</button>
           </div>
         </div>
-      </div>
-      <div class="content beige-bg content-4" id="new-arrivals">
+      </section>
+      
+      <section class="content beige-bg content-4" id="new-arrivals">
         <h2>Latest Additions</h2>
         <p>Check out the newest, safest toys and accessories for your pets.</p>
         <div class="trending-products">
@@ -171,8 +176,9 @@
             <button>Add to Cart</button>
           </div>
         </div>
-      </div>
-      <div class="content white-bg" id="editors-picks">
+      </section>
+      
+      <section class="content white-bg" id="editors-picks">
         <h2>Editor's Picks</h2>
         <p>Handpicked recommendations to provide the best for your pets.</p>
         <div class="top-recommendations">
@@ -334,7 +340,7 @@
             <button>Add to Cart</button>
           </div>
         </div>
-      </div>
+      </section>
     </div>
     
     <div id="cart-modal" style="display:none;">
@@ -359,7 +365,7 @@
       </div>
     </div>
 
-    <div class="content beige-bg">
+    <section class="content beige-bg">
       <h2>What Our Customers Say</h2>
       <p>Your feedback is important to us! Thank you for your trust.</p>
       <div class="testimonials-container">
@@ -385,6 +391,17 @@
           <p>October 10, 2022</p>
         </div>
       </div>
-    </div>
+    </section>
+    
+    <footer class="content white-bg">
+      <nav class="nav-links">
+        <a href="#about-us">About Us</a>
+        <a href="#categories">Categories</a>
+        <a href="#best-sellers">Best Sellers</a>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#editors-picks">Other Products</a>
+      </nav>
+      <p>Pet Spa © 2024</p>
+    </footer>
   </body>
 </html>
