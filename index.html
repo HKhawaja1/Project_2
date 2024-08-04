@@ -9,12 +9,23 @@
   </head>
   <body>
     <div class="flex-container">
-      <div class="navigation">Navigation</div>
+      <div class="navigation">
+        <a href="index.html">
+          <img src="assets/Logo.png" alt="Logo" class="logo">
+        </a>
+        <div class="nav-links">
+          <a href="#about-us">About Us</a>
+          <a href="#categories">Categories</a>
+          <a href="#best-sellers">Best Sellers</a>
+          <a href="#new-arrivals">New Arrivals</a>
+          <a href="#editors-picks">Other Products</a>
+        </div>
+      </div>
       <div class="heroImage">
         <h1>Where Pets Feel at Home</h1>
         <h3>High-Quality Supplies, Food, and Products from Leading Brands</h3>
       </div>
-      <div class="content white-bg">
+      <div class="content white-bg" id="categories">
         <h1 class="centered">Top Quality Products for Every Pet</h1>
         <p class="description">Premium selections for your cherished companions only at Pet Spa.</p>
         <div class="product-wrapper">
@@ -84,7 +95,7 @@
           <button class="scroll-button" id="scroll-right">&gt;</button>
         </div>
       </div>
-      <div class="content beige-bg">
+      <div class="content beige-bg" id="about-us">
         <div class="info-container">
           <img src="assets/hamster.jpg" alt="Hamster" class="info-image">
           <div class="info-text">
@@ -101,7 +112,7 @@
           </div>
         </div>
       </div>
-      <div class="content white-bg">
+      <div class="content white-bg" id="best-sellers">
         <h2>Featured Products</h2>
         <p>Discover our customers' favorite picks. Don't miss out!</p>
         <div class="trending-products">
@@ -131,7 +142,7 @@
           </div>
         </div>
       </div>
-      <div class="content beige-bg content-4">
+      <div class="content beige-bg content-4" id="new-arrivals">
         <h2>Latest Additions</h2>
         <p>Check out the newest, safest toys and accessories for your pets.</p>
         <div class="trending-products">
@@ -161,7 +172,7 @@
           </div>
         </div>
       </div>
-      <div class="content white-bg">
+      <div class="content white-bg" id="editors-picks">
         <h2>Editor's Picks</h2>
         <p>Handpicked recommendations to provide the best for your pets.</p>
         <div class="top-recommendations">
@@ -324,7 +335,6 @@
           </div>
         </div>
       </div>
-      <div class="content beige-bg">Content 6</div>
     </div>
     
     <div id="cart-modal" style="display:none;">
@@ -345,6 +355,34 @@
         <div id="order-message" style="display:none;">
           <p>Thank you for your order!</p>
           <p>We'll get in touch with you soon with further details.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content beige-bg">
+      <h2>What Our Customers Say</h2>
+      <p>Your feedback is important to us! Thank you for your trust.</p>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <img src="assets/alex.jpg" alt="Alex Johnson" class="testimonial-image">
+          <p><strong>Alex Johnson</strong></p>
+          <p>and his playful dog named Rocky</p>
+          <p>"I've been buying toys for my dog from this store. The variety is great, and the prices are reasonable. Highly recommended!"</p>
+          <p>March 5, 2021</p>
+        </div>
+        <div class="testimonial">
+          <img src="assets/jane.jpg" alt="Jane Doe" class="testimonial-image">
+          <p><strong>Jane Doe</strong></p>
+          <p>and her lovely dog named Max</p>
+          <p>"The variety of products for dogs is amazing. I always find everything I need, and the quality is top-notch."</p>
+          <p>November 20, 2021</p>
+        </div>
+        <div class="testimonial">
+          <img src="assets/john.jpg" alt="John Smith" class="testimonial-image">
+          <p><strong>John Smith</strong></p>
+          <p>and his beautiful bird named Sky</p>
+          <p>"I love shopping here for my bird. They have everything from food to toys, and the prices are unbeatable."</p>
+          <p>October 10, 2022</p>
         </div>
       </div>
     </div>
