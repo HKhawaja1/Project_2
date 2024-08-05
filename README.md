@@ -96,3 +96,28 @@ The Pet Spa online store is a dedicated e-commerce platform designed to provide 
 ## Wireframe
 
 ![Wireframe](https://i.postimg.cc/CL13sZBL/Wireframe.png)
+
+## References
+ChatGPT
+https://petshop.sites.motocms.com/#store
+https://logo.com/
+https://forum.freecodecamp.org/t/survey-form-build-a-survey-form/551546
+https://fastspringexamples.com/full-cart/modal-carts/
+https://designmodo.com/shopping-cart-ui/
+https://sudhanshuranjanblogs.hashnode.dev/making-a-shopping-cart
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+https://www.w3schools.com/howto/howto_css_rounded_images.asp
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+https://www.w3schools.com/js/js_if_else.asp
+https://www.w3schools.com/css/css3_mediaqueries.asp
+https://www.w3schools.com/css/css3_flexbox.asp
+https://www.w3schools.com/html/html5_semantic_elements.asp
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+https://www.w3schools.com/cssref/pr_pos_z-index.php
+https://www.w3schools.com/w3css/w3css_modal.asp
+https://www.w3schools.com/howto/howto_css_modals.asp
+https://www.w3schools.com/js/js_validation.asp
+https://www.w3schools.com/cssref/sel_hover.php
+https://www.w3schools.com/jsref/event_onclick.asp
+https://www.youtube.com/playlist?list=PLejKBGxF74J4ZxGhA53u-7Y1CSgGQcvAI
