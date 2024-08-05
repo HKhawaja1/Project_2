@@ -245,6 +245,7 @@ html, body {
 .top-recommendations h3 {
     margin: 0 10px;
     cursor: pointer;
+    padding-top: 20px;
 }
 
 .top-recommendations h3:hover {
@@ -380,4 +381,39 @@ footer .nav-links a {
     text-decoration: none;
     color: black;
     font-size: 16px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: grey;
+}
+
+h1, h2 {
+    font-family: 'Brush Script MT', cursive;
+    color: black;
+}
+
+.prices {
+    color: orange;
+    font-weight: bold;
+    padding-bottom: 10px;
+ }
+
+.testimonial {
+    font-style: italic;
+}
+
+.customers {
+    color: black;
+}
+
+.date {
+    font-style: normal;
+    color: black;
+    padding-top: 4px;
+}
+
+.buttontext {
+    color: green;
+    font-weight: bold;
 }
