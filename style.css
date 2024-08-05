@@ -405,6 +405,13 @@ h1, h2 {
 
 .customers {
     color: black;
+    font-style: normal;
+}
+
+.animal {
+    font-style: normal;
+    color: orange;
+    font-weight: bold;
 }
 
 .date {
