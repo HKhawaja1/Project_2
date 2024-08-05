@@ -92,3 +92,5 @@ The Pet Spa online store is a dedicated e-commerce platform designed to provide 
 - **Responsive Design:** Ensuring the website looks good and functions well on different devices requires careful planning and multiple iterations.
 - **Carousel Functionality:** Implementing the scrolling functionality for the product categories carousel was challenging, particularly handling edge cases and ensuring smooth transitions.
 - **Interactivity with JavaScript:** Encountered a lot of errors with the shopping form as it kept breaking down whenever more code was added so this was kept as simple as possible.
+
+![Wireframe](https://i.postimg.cc/CL13sZBL/Wireframe.png)
