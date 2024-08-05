@@ -397,7 +397,7 @@ h1, h2 {
     color: orange;
     font-weight: bold;
     padding-bottom: 10px;
- }
+}
 
 .testimonial {
     font-style: italic;
@@ -416,4 +416,70 @@ h1, h2 {
 .buttontext {
     color: green;
     font-weight: bold;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-image {
+        margin: 0 0 20px 0;
+        width: 100%;
+        height: auto;
+    }
+    .info-text {
+        padding-left: 0;
+        text-align: center;
+    }
+    .product {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .heroImage h1 {
+        font-size: 2em;
+    }
+    .heroImage h3 {
+        font-size: 1em;
+    }
+    .product {
+        width: 90%;
+    }
+    .scroll-button {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 576px) {
+    .heroImage h1 {
+        font-size: 1.5em;
+    }
+    .heroImage h3 {
+        font-size: 0.9em;
+    }
+    .info-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .product {
+        width: 100%;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .product-category ul {
+        flex-direction: column;
+    }
+    .product-category ul li {
+        margin: 5px 0;
+    }
 }
