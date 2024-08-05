@@ -1,6 +1,7 @@
 # Pet Spa Online Store
 
 [Live Site](https://hkhawaja1.github.io/Project_2/)
+
 [GitHub Repository](https://github.com/HKhawaja1/Project_2)
 
 ## Project Concept
